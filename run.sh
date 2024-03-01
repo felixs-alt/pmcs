@@ -1,2 +1,2 @@
-ufw allow 25565
+sudo ufw allow 25565
 java -Xmx1G -jar purpur.jar nogui
