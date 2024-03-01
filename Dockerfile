@@ -5,4 +5,4 @@ RUN apt install git -y
 RUN git pull
 RUN apt install openjdk-17-jre -y
 EXPOSE 25565
-CMD java -Xmx2G -jar paper.jar nogui
+CMD java -Xmx2G -jar purpur.jar nogui
